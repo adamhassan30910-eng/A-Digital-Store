@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Digital Store</title>
+  <link rel="icon" href="icon1.jpeg" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@300;400;600&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <header>
+    <div class="container top_header">
+      <a href="#" class="logo">
+        <img src="log.png" alt="Logo">
+      </a>
+
+      <button class="hamburger" aria-label="فتح القائمة">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="right-section">
+        <form id="searchForm" class="search_box" role="search">
+          <input type="text" id="searchInput" placeholder="...Search for Products" />
+          <button type="submit" aria-label="بحث"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <div class="select_box category">
+            <select id="categorySelect" name="category" aria-label="اختر الفئة">
+              <option value="all">All</option>
+              <option value="app">Applications</option>
+              <option value="games">Games</option>
+              <option value="pc">PC</option>
+            </select>
+          </div>
+        </form>
+
+        <div class="header_icons">
+          <button class="icon theme-toggle" id="themeToggle" title="تبديل الوضع">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <a href="#" class="icon icon-fav" title="Favourite">
+            <i class="fa-regular fa-heart"></i>
+            <span class="count count_favourite">0</span>
+          </a>
+          <a href="#" class="icon icon-cart" title="Cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="count count_items_header">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main_content">
+    <section class="hero">
+      <h1>اهلا بيك في مكانك</h1>
+      <p>المتجر الرسمي ليا وهنا هتلاقي كل حاجه بسعار مناسبه</p>
+    </section>
+
+    <section id="productsSection" class="products_grid"></section>
+
+    <!-- سلة المشتريات -->
+    <aside id="cartSidebar" class="cart_sidebar">
+      <div class="cart_header">
+        <h3>🛒 سلة المشتريات</h3>
+        <button id="closeCart" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div id="cartItems" class="cart_items"></div>
+      <div class="cart_footer">
+        <div class="cart_total">الإجمالي: <span id="cartTotal">0</span> ج.م</div>
+        <button id="confirmOrder" class="checkout_btn">تأكيد الطلب عبر واتساب</button>
+      </div>
+    </aside>
+
+    <!-- مودال المنتج -->
+    <div id="productModal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="modal_content">
+        <button class="modal_close" id="closeModal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+        <div class="modal_body" id="modalBody"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/201288023157" target="_blank" class="whatsapp-float" title="تواصل معنا عبر واتساب">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">محتاج مساعدة؟</span>
+  </a>
+
+  <footer class="site_footer">
+    <div class="container">
+      <p>© <span id="year"></span> Adam Hardware — كل الحقوق محفوظة</p>
+    </div>
+  </footer>
+
+  <button class="scroll_top" id="scrollTopBtn">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
