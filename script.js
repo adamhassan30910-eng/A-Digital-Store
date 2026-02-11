@@ -14,6 +14,27 @@ document.addEventListener('DOMContentLoaded', () => {
     { id: 'p9', title: 'Battlefield 2042 Digital Access', category: 'games', price: 220, img: 'ba2042 220.jpg', desc: 'الوصول الرقمي إلى لعبة Battlefield 2042 اصليه بالكامل' },
     { id: 'p10', title: 'Battlefield 5 Digital Access', category: 'games', price: 149, img: 'ba5 149.jpg', desc: 'الوصول الرقمي إلى لعبة Battlefield V اصليه بالكامل' },
     { id: 'p11', title: 'Battlefield 6 Digital Access', category: 'games', price: 1360, img: 'ba6 1360.jpg', desc: 'الوصول الرقمي إلى لعبة Battlefield 6 اصليه بالكامل' },
+    { id: 'p12', title: 'Office 365 Professional Plus – 5 Devices PC/MAC/Mobile 1 Year Digital Access', category: 'app', price: 299, img: 'off 299.jpg', desc: 'جميع برامج الاوفيس اشتراك اصلي مع ضمان طول فترة الاشتراك مننا' },
+    { id: 'p13', title: 'Xbox Game pass 12 months Digital Access (pc)', category: 'games', price: 349, img: 'xbox 349.jpg', desc: 'اشتراك سنوي للجيم باس ولكن بيكون للالعاب الاصليه الاوفلاين او الالعاب الاونلاين الغير مشهوره تواصل معانا لتفاصيل اكتر' },
+    { id: 'p14', title: 'Adobe Creative Cloud 1 Month Digital Access', category: 'app', price: 350, img: 'adobe 350.jpg', desc: 'الوصول الرقمي إلى حزمة برامج Adobe Creative Cloud اصليه بالكامل' },
+    { id: 'p15', title: 'Adobe Creative Cloud1 year Digital Access', category: 'app', price: 1999, img: 'adobe 1999.jpg', desc: 'الوصول الرقمي إلى حزمة برامج Adobe Creative Cloud اصليه بالكامل لمدة سنة واحدة' },
+    { id: 'p16', title: 'CapCut 1 year Activated Digital Access', category: 'app', price: 1099, img: 'cap 1099.jpg', desc: 'الوصول الرقمي إلى تطبيق CapCut مفعل لمدة سنة واحدة' },
+    { id: 'p17', title: 'Chat GPT Plus 1 month Digital Access', category: 'app', price: 220, img: 'gpt 220.jpg', desc: 'الوصول الرقمي إلى Chat GPT Plus لمدة شهر واحد' },
+    { id: 'p18', title: 'Chat GPT GO 1 year Digital Access', category: 'app', price: 849, img: 'gpt 849.jpg', desc: 'الوصول الرقمي إلى Chat GPT GO لمدة سنة واحدة' },
+    { id: 'p19', title: 'Netflix 1 year Digital Access', category: 'app', price: 499, img: 'netflix 499.jpg', desc: 'الوصول الرقمي إلى Netflix لمدة سنة واحدة' },
+    { id: 'p20', title: 'GTA V (Online) Digital Key', category: 'games', price: 899, img: 'gta 899.jpg', desc: 'الوصول الرقمي (كود تفعيل) إلى لعبة Grand Theft Auto V اصليه بالكامل' },
+    { id: 'p21', title: 'Red Dead Redemption 2 (Online) Digital Key', category: 'games', price: 899, img: 'red 899.jpg', desc: 'الوصول الرقمي (كود تفعيل) إلى لعبة Red Dead Redemption 2 اصليه بالكامل' },
+    { id: 'p22', title: 'Kaspersky 1 year Digital Key', category: 'app', price: 399, img: 'kasper 399.jpg', desc: 'الوصول الرقمي إلى برنامج Kaspersky اصليه بالكامل لمدة سنة واحدة' },
+    { id: 'p23', title: 'Marvel Spider-Man 2 Digital Access', category: 'games', price: 1699, img: 'spider2 1699.jpg', desc: 'الوصول الرقمي إلى لعبة Marvel Spider-Man 2 اصليه بالكامل' },
+    { id: 'p24', title: 'Spider-man Digital Access', category: 'games', price: 599, img: 'spider1 599.jpg', desc: 'الوصول الرقمي إلى لعبة Spider-Man  اصليه بالكامل' },
+    
+
+
+    
+
+
+
+    
   ];
 
   // ===== العناصر =====
