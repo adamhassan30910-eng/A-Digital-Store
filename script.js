@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { id: 'p1', title: 'GTA V (Online) Digital Access', category: 'games', price: 549, img: 'gta 549.jpg', desc: 'الوصول الرقمي إلى لعبة Grand Theft Auto V اصليه بالكامل' },
     { id: 'p2', title: 'FC 25 (Online) Digital Access', category: 'games', price: 245, img: 'fc25 245.jpg', desc: 'الوصول الرقمي إلى لعبة Football Manager 2025 اصليه بالكامل' },
     { id: 'p3', title: 'Arc Raiders Digital Access', category: 'games', price: 1329, img: 'arc 1329.jpg', desc: 'الوصول الرقمي إلى لعبة Arc Raiders اصليه بالكامل' },
-    { id: 'p4', title: 'WIN 11 pro Activation Code Life Time', category: 'app', price: 139, img: 'win 139.jpg', desc: 'رمز تفعيل Windows 11 Pro مدى الحياة' },
+    { id: 'p4', title: 'WIN 11 pro Activation Code Life Time', category: 'app', price: 199, img: 'win 139.jpg', desc: 'رمز تفعيل Windows 11 Pro مدى الحياة' },
     { id: 'p5', title: 'CapCut 1 Month Activated Digital Access', category: 'app', price: 149, img: 'cap 149.jpg', desc: 'الوصول الرقمي إلى تطبيق CapCut مفعل لمدة شهر واحد' },
     { id: 'p6', title: 'FC 26 (Online) Digital Access', category: 'games', price: 759, img: 'fc26 759.jpg', desc: 'الوصول الرقمي إلى لعبة Football Manager 2026 اصليه بالكامل' },
     { id: 'p7', title: 'Red Dead Redemption 2 Digital Access', category: 'games', price: 579, img: 'red 579.jpg', desc: 'الوصول الرقمي إلى لعبة Red Dead Redemption 2 اصليه بالكامل' },
